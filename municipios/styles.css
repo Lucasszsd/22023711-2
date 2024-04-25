@@ -1,0 +1,45 @@
+body {
+  display: grid;
+  grid-template-rows: 100px 490px 60px;
+  margin: 0%;
+}
+main {
+  background-color: aliceblue;
+  padding-left: 40%;
+  padding-bottom: 20%;
+}
+
+header {
+  background-color: #0074d9;
+  color: white;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  border: 10px;
+}
+.lista {
+  list-style: none;
+}
+
+a :hover {
+  opacity: 0.8;
+}
+
+a {
+  color: #333;
+}
+footer {
+  background-color: #333;
+  color: white;
+  padding-left: 40%;
+  padding-top: 30px;
+}
+
+button {
+  background-color: #ff4136;
+  color: white;
+}
+
+button :hover {
+  opacity: 0.8;
+}
